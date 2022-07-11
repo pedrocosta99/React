@@ -1,0 +1,9 @@
+to create an app, go to terminal and
+>>> npx create-react-app name-of-the-app
+
+
+
+
+
+
+
