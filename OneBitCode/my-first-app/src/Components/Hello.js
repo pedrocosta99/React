@@ -1,4 +1,4 @@
-import Coelhinho from "./lorem"
+import Coelhinho from "./Planetas"
 
 
 export default function HelloWorld() {
