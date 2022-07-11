@@ -1,12 +1,11 @@
-
-function HelloWorld() {
-  return <h1>Hello World</h1>
-}
+import HelloWorld from "./Components/Hello";
 
 function App() {
   return (
     <div>
       <HelloWorld/>
+      <HelloWorld/>
+
     </div>
   );
 }
