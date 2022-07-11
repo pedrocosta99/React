@@ -1,7 +1,7 @@
 import DescriptionWithLink from "./DescriptionLink"
 
-const clickOnPlanet = () => {
-  console.log("Um click no planeta")
+const clickOnPlanet = (name) => {
+  console.log(`Um click no planeta ${name}`)
 }
 
 function Planetas() {

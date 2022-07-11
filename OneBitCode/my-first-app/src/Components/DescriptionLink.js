@@ -1,5 +1,5 @@
 const DescriptionWithLink = (props) => {
-  return <div onClick={props.clickOnPlanet}>
+  return <div onClick={() => props.clickOnPlanet(props.name)}>
     <p>{props.description}</p>
     Link: <a href={props.url}>
       {props.name}
