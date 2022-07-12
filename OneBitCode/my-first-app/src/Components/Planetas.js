@@ -5,8 +5,15 @@ const clickOnPlanet = (name) => {
 }
 
 function Planetas() {
-  return <div>
+  const numbers = [1,2,3,4,5]
+  const satellites = numbers.map((n) => 
+    <li>Satélite {n}</li>
+  )
 
+  return <div>
+    <ul>
+      {satellites}
+    </ul>
     <DescriptionWithLink
         name="Mercury"
         description="The smallest planet in the Solar System (0.055 MEarth), Mercury has no natural satellites."
